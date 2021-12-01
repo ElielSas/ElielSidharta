@@ -9,7 +9,7 @@ body,
   height: 100vh;
 }
 header {
-  background-color: rgb(94, 6, 6);
+  background-color: black;
   font-size: 2rem;
 }
 nav {
@@ -18,4 +18,14 @@ nav {
 }
 a {
   padding: 15px;
+}
+
+.icono {
+  display: flex;
+  float: right;
+  border: 2px solid black;
+  padding: 15px;
+}
+h1 {
+  color: rgb(104, 42, 42);
 }
