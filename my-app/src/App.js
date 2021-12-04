@@ -7,6 +7,7 @@ const App = () => {
 
     const producto = {titulo:"Producto 1"}
     
+
     return (
         <>
              <Header producto={producto} saludo="Hola Mundo" />

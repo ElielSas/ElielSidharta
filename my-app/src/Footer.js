@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer class="container__footer text-dark py-3 text-justify">
+            <footer class="container__footer  py-3 text-justify">
                 <div class="container-fluid">	
                 <div class= "row ">
                     <ul class="footer__textos col-sm-4 list-unstyled mb-5">
