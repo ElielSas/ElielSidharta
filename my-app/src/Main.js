@@ -1,17 +1,14 @@
 import { useState } from "react"
+import ItemCount from "./ItemCount"
 const Main = () => {
-    
-    const [contador, setContador] = useState(0)
-
-    const aumentarContador = () => {
-        console.log("Aumentar contador")
-        setContador(contador + 1 )
+    const handleOnAdd = () => {
+        console.log("agregaste el producto al carrito")
     }
     return (
         <div className="main">
           <h2>Prueba del Contador</h2>
-                <p>El contador va : {contador} </p>
-                <button onClick={aumentarContador}>Aumentar</button> 
+                <p>El contador va : 0 </p>
+                <ItemCount stock={5} onAdd={handleOnAdd} inicial={0}/>  
         </div>
     )
 }
