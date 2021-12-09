@@ -50,3 +50,12 @@ a:link {
   color: black;
   font-weight: 900;
 }
+.containerItem {
+  border: 3px solid black;
+  font-size: 2rem;
+  color: blue;
+  background-color: burlywood;
+  width: 400px;
+  height: 70%;
+  margin-bottom: 1000px;
+}
