@@ -1,8 +1,7 @@
 import Header from './Header'
-import Main from './Main';
 import Footer from './Footer';
 import ItemListContainer from './ItemListContainer';
-
+import ItemDetailContainer from './ItemDetailContainer';
 const App = () => {
 
     const producto = {titulo:"Producto 1"}
@@ -11,8 +10,8 @@ const App = () => {
     return (
         <>
              <Header producto={producto} saludo="Hola Mundo" />
-             <Main/>
              <ItemListContainer/>
+             <ItemDetailContainer/>
              <Footer/>
         </>
     )
